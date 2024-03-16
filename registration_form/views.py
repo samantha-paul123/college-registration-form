@@ -12,5 +12,5 @@ def index(request):
         age=request.POST['age']
         new = userdetails(Name=Name,Email=Email,Gender=Gender,lang=lang,ph_no=ph_no,age=age)
         new.save()
-    return render(request,'collect.html')
+    return render(request,'index.html')
 
