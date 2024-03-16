@@ -1,0 +1,30 @@
+body{
+
+    background-image: url(/img/Desktop-1.png);
+
+    background-size: cover;
+
+}
+
+.register
+
+{   margin-top: 30dvh;
+
+    margin-left: 15dvw;
+
+    height:58dvh;
+
+    width:70dvw; 
+
+    background-color: rgb(0, 221, 255);
+
+    border-radius: 3%;
+
+    padding-left: 5dvw;
+
+    padding-top: 1dvh;
+
+    padding-bottom: 1dvh;
+
+}
+
