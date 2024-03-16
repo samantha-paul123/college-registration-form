@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="{% static 'styles/style.css'%}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+     
+
+        
+
+<div class="register">
+
+            <h2>Register Here</h2>
+
+            <form action="" method="post">
+                {% csrf_token %}
+
+                <label for="name">Name : </label>
+
+                
+
+                <input type="text" name="name"
+
+                id="name" placeholder="Enter Your First Name">
+
+                
+
+        
+
+                <br><br>
+
+                <label>Your Age : </label>
+
+                
+
+                <input type="number" name="age" id="name" placeholder="How old are you?">
+
+                
+
+                <label>Email : </label>
+
+               
+
+                <input type="email" name="email" id="name" placeholder="Enter your valid email">
+
+                <br><br>
+
+                <label>Gender : </label>
+
+                <br>
+
+                &nbsp;&nbsp;&nbsp;
+
+                <input type="radio" name="gender" id="male">
+
+                &nbsp;
+
+                <span id="male">Male</span>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="radio" name="gender" id="female">
+
+                &nbsp;
+
+                <span id="female">Female</span>
+
+                <br><br>
+                <label for="lang">Language: </label>
+                <select name="lang" id="lang">
+                    <option value="Bengali">Bengali</option>
+                    <option value="Eng">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Tamil">Tamil</option>
+
+                </select>
+
+                <br><br>
+
+                <label>Phone Number : </label>
+
+                <br>
+
+                <input type="text" name="ph_no" id="name" placeholder="student's phone number">
+
+                <br><br>
+
+                <label>Birth Date : </label>
+
+                <br>
+
+                
+
+                <input type="date" name="birth date" id="month" placeholder="please select">
+
+            
+
+                <br><br>
+
+                <input type="SUBMIT" value="SUBMIT" name="SUBMIT" id="SUBMIT">
+
+
+
+
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
